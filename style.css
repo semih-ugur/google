@@ -137,6 +137,10 @@ body {
 .footer-mid a {
     text-decoration: none;
 }
+.footer-mid a::before {
+    content: url(./yaprak.png);
+    padding: 4px;
+}
 
 .footer-right {
     display: inline-block;
